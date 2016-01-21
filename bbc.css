@@ -1,0 +1,445 @@
+body {
+         margin: 0;
+         padding: 0;
+         background-color:#e2e2e2;
+         font-family:'Times new Roman',Arial, Helvetica, sans-serif;
+    }
+    .container{
+    	display:block;
+    	margin-left:auto;
+    	margin-right:auto;
+    }
+    .navigation-bar{
+    	height:210px;
+    	width:90%;
+    	text-align:center;
+    }
+    .navigation-container{
+        background-color:white;
+    	width:121%;
+    	height:20%;
+    	margin:0 auto;
+    	border-bottom:1px solid gray;
+    }
+    .logo{
+    	width:8%;
+    	height:5%;
+    	padding-left:182px;
+    	position:absolute;
+    	padding-top:10px;
+    	border-right:1px solid gray;
+    }
+    .navigation-bar ul{
+    	margin:0px;
+    	padding:0px;
+    	display:inline-block;
+    	text-align:center;
+    	border-left:1px solid gray;
+    }
+    .navigation-bar li{
+    	margin:4px 0px;
+    	display:inline;
+        border-right:1px solid gray;
+        padding:9.9px;
+    }
+    .navigation-bar li a{
+    	font-size:16px;
+    	color:black;
+    	text-decoration:none;
+    	line-height:42px;
+    	padding-right:5px;
+    }
+    .navigation-bar ul li a:link{
+        text-decoration:none;
+    }
+    .navigation-bar ul li a:visited{
+        text-decoration:none;
+    }
+    .navigation-bar ul li a:hover{
+        text-decoration:underline;
+    }
+    .navigation-bar ul li a:active{
+        text-decoration:underline;
+    }
+    .navigation-bar form{
+    	float:right;
+    	display:inline-block;
+    	position:absolute;
+    	top:7px;
+    	right:210px;
+    }
+    .navigation-bar button{
+    	position:absolute;
+    	right:0.1px;
+    	top:0.4px;
+    	width:30px;
+	    height:21px;
+	    background-color:#e2e2e2;
+    	border:5px solid #e2e2e2;
+    }
+    #searchblock{
+    	width:146px;
+    	height:18px;
+    }
+    .input1{
+    	background-color:#e2e2e2;
+    	border:5px solid #e2e2e2;
+    }
+    .header1{
+    	position:absolute;
+    	top:43px;
+    	left:186px;
+    	background-color:orange;
+    	width:71%;
+    	height:8%;
+    	display:block;
+    	border-bottom:1px solid gray;
+    }
+    .header1 h1{
+    	padding-left: 16px;
+    	margin:8px;
+    }
+    .primarynavbar{
+    	width:71%;
+    	height:5%;
+    	display:block;
+    	padding-bottom:7px;
+    	position:absolute;
+    	top:96px;
+    	left:186px;
+    	background-color:orange;
+    }
+    .primarynavbar ul{
+    	width:97%;
+    	height:25px;
+        padding-left:5px;
+    	display:inline-block;
+    	position:absolute;
+        right:1%;
+        top:0.3%;
+    }
+    .primarynavbar li{
+        margin:4px 0px;
+        display:inline;
+        border-right:1px solid gray;
+    }
+    .primarynavbar li a{
+        color:black;
+        text-decoration:none;
+        
+    }
+    .primarynavbar p{
+    	float:right; 
+    	padding:0px 10px ; 
+    	border-left:1px solid gray;
+    }
+    .innercontent{
+        background-color:white;
+        width:71%;
+        height:420%;
+        position:absolute;
+        left:186px;
+        top:136px;
+
+    }
+    .left-side{
+        position:absolute;
+        top:25px;
+        width:45%;
+        text-indent:justify;
+    }
+    .left-sideh2{
+        background-color:blue;
+        display:inline;
+        padding-left:12px;
+    }
+    .left-sidehead2{
+        padding-left:12px;
+    }
+
+    .left-side p{
+        padding-left:12px;
+    }
+    
+    .image1{
+        width:45%;
+        padding-left:10px;
+    }
+    .image2{
+        padding-left:240px;
+        position:absolute;
+        top:380px;
+    }
+    .colour{
+        color:black;
+        font-size:19px;
+        font-weight:lighter;
+    }
+    .imgtext{
+        font-size:20px;
+    }
+    .heading3{
+        background-color:lightgray;
+        padding-left:10px;
+        color:gray;
+    }
+    
+    .middle{
+        width:15%;
+        position:absolute;
+        top:6px;
+        left:490px;
+    }
+    .colour1{
+        color:green;
+    }
+    .hrline{
+        border:5px solid lightgray;
+    }
+    .right-side{
+        position:absolute;
+        right:1px;
+        top:5px;
+        width:32%;
+        display:block;
+    }
+    .moreinfo{
+        width:110%;
+        position:relative;
+    }
+    .moreinfo1{
+        width:35%;
+    }
+    .moreinfo2{ 
+        width:35%;
+        position:absolute;
+        top:1px;
+        left:160px;
+    }
+    .moreinfo3{
+        position:absolute;
+        top:1px;
+        left:310px;
+
+    }
+    .right-side ul{  
+        margin:0px;
+        padding:0px;
+        display:inline;
+    }
+    .right-side li{
+        display:inline;
+    }
+    .rightva{
+        width:90%;
+        display:inline-block;
+    }
+    .video1{
+        width:45%;
+        padding-left:10px;
+    }
+    .video2{
+        position:absolute;
+        top:60px;
+        padding-left:158px;
+    }
+    .headingwrapper{
+        display:block;
+    }
+
+    .imagewrapper{
+        display:block;
+
+    }
+    .rightimg{
+        width:55%;
+        padding-left:10px;
+        padding-top:35px;
+
+    }
+    .rightimg2{
+        position:absolute;
+        top:254px;
+        padding-left:160px;
+        display:inline;
+    }
+    .rightheading{
+        background-color:yellow;
+        margin-top:35px;
+        padding:5px 10px 5px;
+    }
+    .input2{
+        background-color:green;
+        border:2px solid green;
+        color:white;
+        margin-bottom:6px;
+    }
+    .right-side label{
+        margin-left:10px;
+    }
+    .show_more_results{
+        display:block;
+        background-color:black;
+        color:white;
+        width:100%;
+        border:1px solid black;
+        margin:2px;
+        text-align:left;    
+    }
+    .ashes_game ul li a{
+        display:block;
+    }
+    .listitem{
+        list-style-type:square;
+    }
+    .srf{
+        background-color:lightgray;
+        position:absolute;
+        top:1136px;
+        padding:5px 10px 0px 10px;
+
+    }
+    .pipe{
+        padding:0px 5px;
+    }
+    .alsosh3{
+        
+        font-size:16px;
+        margin: 0px; 
+        font-weight:normal;
+    }
+    .alsos{
+        margin:2px 0px 0px 0px;
+        font-size: 1em;
+    }
+    .app{
+        position: absolute;
+        top:1500px;
+    }
+    .gossip{
+        position:absolute;
+        top:1820px;
+    }
+    .radio_links{
+        position:absolute;
+        top:1999px;
+    }
+    .radio_links1{
+        background-color:lightgray;
+    }
+    footer{
+        position:relative;
+        top:2500px;
+        left:186px;
+        width:71%;
+        border-top:8px solid yellow;
+    }
+    footer h2{
+        padding-left:15px;
+    }
+    .servicesli{
+        display:inline-block;
+        padding-right:40px;
+    }
+    .servicesul{
+        padding-bottom:20px;
+        height:140%;
+        border-bottom:1px solid gray;
+    }
+    .about{
+        display:inline-block;
+        position:relative;
+        bottom:140px;
+        left:600px;   
+    }
+    .about ul{
+        margin-top:-20px;
+        margin-left:-20px;
+    }
+    .about li{
+        display:block;
+    }
+    .footer2{
+        position:absolute;
+        top:122px;
+        width:101%;
+        padding:10px 0px 0px;
+        background-color:#e2e2e2;
+        color:gray;
+    }
+    .footlinks{
+        width:55%;
+        float:right;
+    }
+    .footlinks a{
+        color:gray;
+    }
+    .footlinks ul ,li{
+        display:inline-block;
+        padding-right:20px;
+        padding-top:0px;
+    }
+    .pos{
+        position:absolute;
+        top:30px;
+    }
+    .pos1{
+        position:absolute;
+        top:30px;
+        right:180px;
+    }
+    .pos2{
+        position:absolute;
+        top:30px;
+        right:40px;
+    }
+    .pos3{
+        position:absolute;
+        top:45px;
+        right:352px;
+    }
+    .pos4{
+        position:absolute;
+        top:45px;
+        right:218px;
+    }
+    .pos5{
+        position:absolute;
+        top:45px;
+        right:21px;
+    }
+    .pos6{
+        position:absolute;
+        top:60px;
+        right:400px;
+    }
+    .pos7{
+        position:absolute;
+        top:60px;
+        right:215px;
+    }
+    .pos8{
+        position:absolute;
+        top:60px;
+        right:30px;
+    }
+    .pos9{
+        position:absolute;
+        top:75px;
+        right:34px;
+    }
+
+
+    a:link{
+        text-decoration:none;
+    }
+    a:visited{
+        text-decoration:none;
+    }
+    a:hover{
+        text-decoration:underline;
+        
+    }
+    a:active{
+        text-decoration:none;
+    }
